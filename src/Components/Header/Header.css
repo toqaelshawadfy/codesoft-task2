@@ -1,0 +1,16 @@
+.root{
+    --font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.my-add{
+    background-color: #9f33fe;
+    color: white;
+    font-family: var(--font-family);
+}
+.my-add:hover{
+    background-color: #9f33febb;
+    color: white;
+}
+.form-control:focus{
+    border-color:#9f33fea3 ;
+    box-shadow: 0 0 0 .25rem  #9f33fe56;
+}

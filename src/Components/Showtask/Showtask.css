@@ -1,0 +1,65 @@
+.my-task{
+    width: 18rem;
+}
+.root{
+    --font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+    width: 20rem !important;
+}
+span ,.icon i{
+    color: rgba(198, 198, 198, 0.633);
+}
+.deletebtn i,.updatebtn i{
+ color:  #9f33fe!important;
+ transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  font-size:19px;
+}
+.deletebtn i:hover,.updatebtn i:hover{
+    transform: translateY(-3px);
+}
+.MY-BTN{
+    background-color: #9f33fe;
+    color: white;
+    font-family: var(--font-family);
+}
+.MY-BTN:hover{
+    background-color: #9f33febb;
+    color: white;
+}
+.btn-danger{
+   background-color: rgb(239, 239, 59);
+   color: black;
+   font-family: var(--font-family);
+   border: none !important;
+   border-radius:15px ;
+   -webkit-border-radius:15px ;
+   -moz-border-radius:15px ;
+   -ms-border-radius:15px ;
+   -o-border-radius:15px ;
+   padding: 7px 20px !important;
+}
+.btn-danger:hover{
+    background-color: rgb(239, 239, 59);
+    color: black;
+}
+.btn-success{
+    background-color: rgb(75, 249, 165);
+   color: black;
+   font-family: var(--font-family);
+   border: none !important;
+   border-radius:15px ;
+   -webkit-border-radius:15px ;
+   -moz-border-radius:15px ;
+   -ms-border-radius:15px ;
+   -o-border-radius:15px ;
+   padding: 7px 20px !important;
+}
+.btn-success:hover{
+    background-color: rgb(75, 249, 165);
+    color: black;
+}
+.card-footer{
+    background-color: transparent;
+}
